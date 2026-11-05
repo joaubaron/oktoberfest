@@ -1,4 +1,4 @@
-// ======== CONFIGURAÇÃO DE CAMINHOS ========
+// ======== CONFIGURAÇÃO DE CAMINHOS =========
 const GITHUB_BASE = 'https://joaubaron.github.io/oktoberfest';
 let manifestsLoaded = false;
 

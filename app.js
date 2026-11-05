@@ -1,5 +1,5 @@
 // ======== CONFIGURAÇÃO DE CAMINHOS ========
-const GITHUB_BASE = 'https://joaubaron.github.io/oktoberfest-media';
+const GITHUB_BASE = 'https://joaubaron.github.io/oktoberfest';
 let manifestsLoaded = false;
 
 // ======== VARIÁVEIS GLOBAIS ========
@@ -118,11 +118,11 @@ console.log(`📆 ${cartazYearsList.length} anos com cartaz detectados`);
 // ======== SISTEMA DE MÚSICA ========
 async function loadMusicList() {
 try {
-const response = await fetch('https://joaubaron.github.io/oktoberfest-media/musicas/song_list.json');
+const response = await fetch('https://joaubaron.github.io/oktoberfest/musicas/song_list.json');
 const data = await response.json();
 musicList = data.songs.map(song => ({
 nome: song.replace('.mp3', ''),
-url: `https://joaubaron.github.io/oktoberfest-media/musicas/${song}`
+url: `https://joaubaron.github.io/oktoberfest/musicas/${song}`
 }));
 console.log(`🎵 ${musicList.length} músicas carregadas`);
 } catch (error) {

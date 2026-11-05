@@ -1129,8 +1129,6 @@ setTimeout(() => { toast.style.opacity = '0'; }, duration);
 
 // ======== UI ELEMENTOS ========
 function setupUIElements() {
-const anoVigente = getElementSafe("anoVigente");
-if (anoVigente) anoVigente.textContent = currentYear;
 const modalYear = getElementSafe("modalYear");
 if (modalYear) modalYear.textContent = currentYear;
 const claraText = getElementSafe("claraOktoberfestText");

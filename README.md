@@ -1,4 +1,4 @@
-https://joaubaron.github.io/oktoberfest-media/
+https://joaubaron.github.io/oktoberfest
 
 # 🍻 Prosit - Oktoberfest Blumenau PWA
 
